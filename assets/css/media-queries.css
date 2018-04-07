@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+/* ---------------------------------------------------------------------- */
+/*  Mobile Version 990px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) { 
+    .nav>li>a {
+      padding-left: 10px;
+      padding-right: 10px;
+    } 
+    .carousel-indicators {
+  		display: none;
+  	}
+  	#fullscreenslider h1 {
+  		font-size: 36px;
+		  line-height: 26px;
+  	}
+  	#fullscreenslider .carousel-caption .border {
+  		margin-top: 25px;
+  		margin-bottom: 20px;  		
+  	}
+  	#fullscreenslider h2 {
+  		font-size: 22px;
+		  line-height: 26px;  		
+  	}
+  	#fullscreenslider .btn-default {
+  		font-size: 15px;
+  		padding: 8px 30px;
+  		margin-top: 10px;  		
+  	}
+  	#home #fullscreenslider .carousel-control.right {
+  		top: 40%;
+  	}
+  	#home #fullscreenslider .carousel-control.left {
+  		top: 40%;
+  	}
+
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  Mobile Version 768px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) { 
+	.navbar-toggle {
+  		margin: 20px;
+	}
+	.navbar-collapse {
+		overflow: hidden;
+	}	
+  .navbar-nav>li.dropdown>ul { 
+    width: 100%;
+  }
+	#fullscreenslider .carousel-caption {
+  		top: 5%;
+  	}	
+	h5 {
+  		font-size: 22px;
+  		line-height: 40px;
+  	}
+	.scrollup {
+		display: none!important;
+	}
+
+
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) { 
+
+  .services .item a i {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px auto 20px auto;
+  }
+
+  .services .item {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .carousel-control {
+    width: 35px;
+    height: 35px; 
+  }
+  .carousel-control.left span, .carousel-control.right span {
+    font-size: 15px;
+    line-height: 2.4;
+  }
+
+
+
+}
+
